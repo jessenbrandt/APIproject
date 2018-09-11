@@ -1,0 +1,97 @@
+* {
+    position: relative;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1469384016477-880d0bb46a51?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f4ee995e22e94369fd86f70c9287927b&auto=format&fit=crop&w=1317&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#myDIV {
+    margin-top: .5%;
+    margin-left: 38.5%;
+    color: aliceblue;
+    width: 180px;
+    font-size: 16pt;
+    transform: skewY(1deg);
+    position: absolute;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    opacity: .8;
+}
+
+
+
+p2 {
+    display: block;
+    padding-top: 5px;
+    font-size: 11pt;
+}
+
+
+
+#getSongs {
+ margin-left: 42.2%;
+ margin-top: 7.4%;
+ transform: skewY(-1deg);
+ color: white;
+ background-color: black;
+ font-size: 19pt;
+ border: rgba(37, 37, 37, 0.568) solid 4px;
+ border-radius: 50%;
+height: 45px;
+width: 45px;
+opacity: .7;
+}
+
+
+#pic {
+    transform-origin: right bottom;
+    transform: skewY(.7deg);
+
+}
+
+img {
+   height:180px;
+   width: 200px;
+   margin-left: 38.1%;
+transform: rotate(1.5deg); 
+opacity: .7;
+border: ridge 4px rgba(51, 51, 51, 0.493);
+border-radius: .3em;
+margin-top: 20px;
+
+}
+
+h1 i {
+float: right;
+font-size: 8pt;
+margin-top: 6px;
+font-weight: lighter;
+margin-right: 8px;
+padding: 1px;
+transform: skewY(-.3deg);
+opacity: .7;
+}
+
+h1 {
+    text-align: start;
+    margin-top: 21.1%;
+    margin-left: 36.9%;
+    color: white;
+    opacity: .8;
+    transform: skewY(2.4deg);
+    font-size: 15pt;
+    width: 241px;
+    padding: 8px;
+    background-color: rgba(80, 80, 80, 0.514);
+    border-bottom: 1px ridge rgba(39, 39, 39, 0.514);
+}
+
